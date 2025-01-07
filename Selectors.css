@@ -46,9 +46,6 @@ p.placeholder{
 #sample-1 > h5{
     color: black;
 }
-p:hover{
-    color: blue;
-}
 #test{
     padding: 100px;
     display: block;
@@ -70,4 +67,7 @@ li:nth-child(1)
 /* TO CHECK FOR SPECIFIC VALUE OF ATTRIBUTE ADD CONDITION TO []AS *=*/
 a[href]{
     color:brown;
+}
+p:hover{
+    color: blue;
 }
