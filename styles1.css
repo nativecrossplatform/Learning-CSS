@@ -3,7 +3,16 @@ h1{
     background-color: yellow;
 }
 #sample-1{
+    color: blue;
     background-color: chartreuse;
-    height: 300px;
+    height: auto;
     width: auto;
+    font-size: 70px;
+}
+.sample-2{
+    color: blue;
+    background-color: grey;
+    height: auto;
+    width: auto;
+    font-size: 70px;
 }
