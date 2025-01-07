@@ -27,3 +27,15 @@ p.placeholder{
     width: auto;
     font-size: 30px;
 }
+/*DESCENDANT SELECTOR*/
+.sample-2 h6 {
+    color:white !important;
+}
+/*CHILD SELECTOR*/
+/* WAY MORE SPECIFIC WILL SELECT THE CHILDEREN WHICH ARE DIRECTLY PART OF SUPER-CLASS/SUPER-ELEMENT */
+#sample-1 > h5{
+    color: black;
+}
+p:hover{
+    color: blue;
+}
