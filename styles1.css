@@ -1,3 +1,9 @@
 h1{
     color: blue;
+    background-color: yellow;
+}
+#sample-1{
+    background-color: chartreuse;
+    height: 300px;
+    width: auto;
 }
