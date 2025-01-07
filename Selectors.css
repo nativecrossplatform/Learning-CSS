@@ -50,7 +50,8 @@ p:hover{
     color: blue;
 }
 #test{
-    padding: 20px;;
+    padding: 100px;
+    display: block;
 }
 /* GROUP SELECTORS */
 #test em,strong{
@@ -63,4 +64,10 @@ p:hover{
 li:nth-child(1)
 {
     color: white;
+}
+/*ATTRIBUTE SELECTOR*/
+/* BELOW EXAMPLE CHECKS WHETHER ATTRIBUTE PRESENT OR NOT*/
+/* TO CHECK FOR SPECIFIC VALUE OF ATTRIBUTE ADD CONDITION TO []AS *=*/
+a[href]{
+    color:brown;
 }
