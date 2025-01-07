@@ -1,7 +1,9 @@
+/* ELEMENT SELECTOR */
 h1{
     color: blue;
     background-color: yellow;
 }
+/* ID SELECTOR */
 #sample-1{
     color: blue;
     background-color: chartreuse;
@@ -9,10 +11,19 @@ h1{
     width: auto;
     font-size: 70px;
 }
+/* CLASS SELECTOR */
 .sample-2{
     color: blue;
     background-color: grey;
     height: auto;
     width: auto;
     font-size: 70px;
+}
+/* ELEMENT WITH CLASS SELECTOR */
+p.placeholder{
+    color: red;
+    background-color: yellowgreen;
+    height: auto;
+    width: auto;
+    font-size: 30px;
 }
