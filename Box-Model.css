@@ -9,9 +9,11 @@ div {
     background-color: cyan;
 }
 h1 {
+
     margin: 50px;
     padding: 30px;
     background-color: yellow;
     border: 2px solid green;
     text-align: center;
+    
 }
