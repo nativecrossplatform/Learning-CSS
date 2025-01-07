@@ -1,5 +1,14 @@
 /*SELECTORS*/
 /* ELEMENT SELECTOR */
+*{
+    /*UNIVERSAL SELECTOR, APPLIES TO EVRYTHING*/
+    border: solid black 3px;
+    margin: 30px;
+    padding: 20px;
+}
+body{
+    background-color: cyan;
+}
 h1{
     color: blue;
     background-color: yellow;
@@ -39,4 +48,19 @@ p.placeholder{
 }
 p:hover{
     color: blue;
+}
+#test{
+    padding: 20px;;
+}
+/* GROUP SELECTORS */
+#test em,strong{
+    color:brown;
+}
+/*NTH OF TYPE SELECTOR*/
+#test em:nth-of-type(2){
+    color:blue;
+}
+li:nth-child(1)
+{
+    color: white;
 }
