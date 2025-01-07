@@ -1,1 +1,19 @@
 /*BOX MODEL*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+div {
+    margin: 20px;
+    border: 5px solid red;
+    padding: 15px;
+    background-color: lightblue;
+}
+h1 {
+    margin: 0;
+    padding: 10px;
+    background-color: yellow;
+    border: 2px solid green;
+    text-align: center;
+}
