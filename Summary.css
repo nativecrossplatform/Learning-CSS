@@ -1,0 +1,230 @@
+/* ====================================
+   CSS Cheat Sheet
+   ==================================== */
+
+/* ---------------------
+   Basic Syntax
+--------------------- */
+selector {
+    property: value;
+  }
+  
+  /* ---------------------
+     Selectors
+  --------------------- */
+  /* Universal Selector */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Type Selector */
+  p {
+    color: blue;
+  }
+  
+  /* Class Selector */
+  .class-name {
+    font-size: 16px;
+  }
+  
+  /* ID Selector */
+  #id-name {
+    text-align: center;
+  }
+  
+  /* Grouping Selectors */
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  /* Descendant Selector */
+  .parent .child {
+    color: red;
+  }
+  
+  /* Child Selector */
+  .parent > .child {
+    margin: 10px;
+  }
+  
+  /* Adjacent Sibling Selector */
+  h1 + p {
+    font-style: italic;
+  }
+  
+  /* General Sibling Selector */
+  h1 ~ p {
+    color: gray;
+  }
+  
+  /* Attribute Selector */
+  input[type="text"] {
+    border: 1px solid #ccc;
+  }
+  
+  /* Pseudo-classes */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Pseudo-elements */
+  p::first-line {
+    font-weight: bold;
+  }
+  
+  /* ---------------------
+     Box Model
+  --------------------- */
+  div {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* ---------------------
+     Positioning
+  --------------------- */
+  .relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+  
+  /* ---------------------
+     Flexbox
+  --------------------- */
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex-item {
+    flex: 1;
+  }
+  
+  /* ---------------------
+     Grid
+  --------------------- */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background: lightgray;
+  }
+  
+  /* ---------------------
+     Typography
+  --------------------- */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  /* ---------------------
+     Backgrounds
+  --------------------- */
+  .background {
+    background-color: #f4f4f4;
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* ---------------------
+     Transitions
+  --------------------- */
+  .button {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+  }
+  
+  /* ---------------------
+     Animations
+  --------------------- */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animated {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* ---------------------
+     Media Queries
+  --------------------- */
+  @media (max-width: 768px) {
+    .responsive {
+      flex-direction: column;
+    }
+  }
+  
+  /* ---------------------
+     Variables (CSS3)
+  --------------------- */
+  :root {
+    --main-color: #3498db;
+    --secondary-color: #2ecc71;
+  }
+  
+  .variable-example {
+    color: var(--main-color);
+  }
+  
+  /* ---------------------
+     Miscellaneous
+  --------------------- */
+  .hidden {
+    display: none;
+  }
+  
+  .visible {
+    visibility: visible;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
