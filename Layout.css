@@ -3,6 +3,7 @@ div{
     background-color: cyan;
     color: red;
     margin: 10px;
+    padding: 10px;
 }
 body{
     display: flex;
