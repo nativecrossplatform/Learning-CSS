@@ -11,7 +11,7 @@ body{
     justify-content: flex-start; /* FOR ALIGNMENT OVER MAIN AXIS */
     align-items: flex-start; /* FOR ALIGNMENT OVER CROSS AXIS */
     flex-wrap: wrap;
-    gap: 60px;
+    gap: au;
     flex: 1 1 auto;
 }
 html,body{
