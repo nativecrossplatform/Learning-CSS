@@ -1,0 +1,17 @@
+/* *{
+    margin:0;
+    padding: 0;
+} */
+body{
+    background-color:black 
+}
+#first{
+    background-color: red;
+}
+#second{
+    background-color: green;
+}
+#third{
+    background-color: blue;
+}
+/* Above Are Examples Of ID Selectors Where We Reference By The ID Of The HTML Element */
