@@ -5,6 +5,9 @@
 body{
     background-color:black 
 }
+div{
+    height: 100px;
+}
 #first{
     background-color: red;
 }
