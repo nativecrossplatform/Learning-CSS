@@ -10,10 +10,11 @@ div{
     height: 100px;
 }
 /*Above Are Examples Of Element Selectors Where We Apply Rules To All Tags Of Particular Element */
-#first{
+#first,#fifth{
     background-color: red;
     font-weight: bolder;
 }
+/*Above Is An Example To Select Multiple Elements*/
 #second{
     background-color: green;
     font-weight: bolder;
