@@ -2,12 +2,14 @@
     margin:0;
     padding: 0;
 }
+/* * Is Reffered To As The Universal Selector, It Applies The Rules On All HTML Elements*/
 body{
     background-color:black 
 }
 div{
     height: 100px;
 }
+/*Above Are Examples Of Element Selectors Where We Apply Rules To All Tags Of Particular Element */
 #first{
     background-color: red;
 }
@@ -17,5 +19,5 @@ div{
 #third{
     background-color: blue;
 }
-/* Above Are Examples Of ID Selectors Where We Reference By The ID Of The HTML Element */
-/* Selectors Are What We Use To Select Which HTML Element We Want To Style */
+/* Above Are Examples Of ID Selectors Where We Reference By The ID Of The HTML Element, This Helps Us Specifically Apply CSS Rules To Targetted Elements */
+/* Selectors Are What We Use To Select Which HTML Element/Elements We Want To Style */
