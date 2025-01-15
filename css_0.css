@@ -21,3 +21,6 @@ div{
 }
 /* Above Are Examples Of ID Selectors Where We Reference By The ID Of The HTML Element, This Helps Us Specifically Apply CSS Rules To Targetted Elements */
 /* Selectors Are What We Use To Select Which HTML Element/Elements We Want To Style */
+.fourth{
+    font-weight: bolder;
+}
