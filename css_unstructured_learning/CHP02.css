@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #one{
     color:red;
+    background-color:green;
 }
 #two{
     color:green;
+    background-color:red;
 }
