@@ -39,3 +39,14 @@ Browser default styles
 External or internal stylesheets (<link> or <style> in <head>)
 Inline styles (using the style attribute or <style> tag in the document)
 Important styles (rules using !important) */
+/* When a rule from an external stylesheet conflicts with a rule in a <style> tag inside the document, the decision is based on the following principles:
+1. Specificity:
+CSS rules with higher specificity are applied. For example:
+p { color: red; } (less specific)
+#content p { color: blue; } (more specific)
+The more specific selector wins, regardless of whether it's in the external stylesheet or <style> tag.
+2. Location (Cascade Order):
+If both rules have the same specificity, the last rule defined takes precedence.
+A <style> tag is usually closer to the element in the DOM than an external stylesheet, so it generally wins in case of a conflict.
+3. Important Rules:
+Any rule with !important overrides other conflicting rules, regardless of specificity or location. */
