@@ -1,54 +1,74 @@
-/* THIS IS HOW COMMENTS ARE GIVEN IN CSS */
-*{
-    margin:0;
+/* CSS COMMENTING STYLE EXAMPLES */
+
+/* UNIVERSAL SELECTOR */
+/* The universal selector (*) applies rules to all HTML elements. */
+* {
+    margin: 0;
     padding: 0;
 }
-/* * Is Reffered To As The Universal Selector, It Applies The Rules On All HTML Elements*/
-body{
-    background-color:black 
+
+/* BODY ELEMENT */
+body {
+    background-color: black;
 }
-div{
+
+/* ELEMENT SELECTOR EXAMPLE */
+/* Applies rules to all tags of a specific element, e.g., div. */
+div {
     height: 100px;
 }
-/*Above Are Examples Of Element Selectors Where We Apply Rules To All Tags Of Particular Element */
-#first,#fifth{
+
+/* ID SELECTORS */
+/* ID selectors allow targeting specific elements by their ID. */
+#first, #fifth {
     background-color: red;
     font-weight: bolder;
 }
-/*Above Is An Example To Select Multiple Elements*/
-#second{
+
+#second {
     background-color: green;
     font-weight: bolder;
 }
-#third{
+
+#third {
     background-color: blue;
     font-weight: bolder;
 }
-/* Above Are Examples Of ID Selectors Where We Reference By The ID Of The HTML Element, This Helps Us Specifically Apply CSS Rules To Targetted Elements */
-/* Selectors Are What We Use To Select Which HTML Element/Elements We Want To Style */
-.fourth{
+
+/* CLASS SELECTOR EXAMPLE */
+/* Targets elements with a specific class name. */
+.fourth {
     font-weight: bolder;
 }
+
+/* SPECIFICITY IN SELECTORS */
 /*
-p.red{} selects element with class red within p tag
-p#red{} selects element with id red within p tag
+Examples:
+- p.red {} targets elements with the class "red" within <p> tags.
+- p#red {} targets elements with the ID "red" within <p> tags.
 */
-/* INLINE STYLE HAS THE MOST PRIORITY, OTHERWISE RULE DEFINED LATER GETS THE PREFERENCE */
-/* 
-CSS PREFERENCE ORDER IS: (DECREASING DOWNWARDS)
-1. Browser default styles
-2. External or internal stylesheets (<link> or <style> in <head>)
-3. Inline styles (using the style attribute or <style> tag in the document)
-4. Important styles (rules using !important) 
+
+/* PRIORITY IN CSS RULES */
+/* Inline styles have the highest priority unless overridden by !important. */
+
+/* CSS PRIORITY ORDER (FROM LOWEST TO HIGHEST):
+1. Browser default styles.
+2. External or internal stylesheets (<link> or <style> in <head>).
+3. Inline styles (using the style attribute).
+4. Important rules (using !important).
 */
-/* When a rule from an external stylesheet conflicts with a rule in a <style> tag inside the document, the decision is based on the following principles:
+
+/* CONFLICT RESOLUTION IN CSS */
+/*
+When two rules conflict, CSS resolves it based on:
 1. Specificity:
-CSS rules with higher specificity are applied. For example:
-p { color: red; } (less specific)
-#content p { color: blue; } (more specific)
-The more specific selector wins, regardless of whether it's in the external stylesheet or <style> tag.
-2. Location (Cascade Order):
-If both rules have the same specificity, the last rule defined takes precedence.
-A <style> tag is usually closer to the element in the DOM than an external stylesheet, so it generally wins in case of a conflict.
+   - Rules with higher specificity override less specific ones.
+     Example:
+       p { color: red; }       Less specific 
+       #content p { color: blue; }  More specific 
+2. Cascade Order:
+   - When specificity is equal, the rule defined later takes precedence.
+   - A <style> tag in the document is closer to the DOM than an external stylesheet, so it usually wins.
 3. Important Rules:
-Any rule with !important overrides other conflicting rules, regardless of specificity or location. */
+   - Rules using !important override all other rules, regardless of specificity or cascade order.
+*/
