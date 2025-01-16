@@ -1,3 +1,4 @@
+/* THIS IS HOW COMMENTS ARE GIVEN IN CSS */
 *{
     margin:0;
     padding: 0;
@@ -32,3 +33,9 @@ div{
 p.red{} selects element with class red within p tag
 p#red{} selects element with id red within p tag
 */
+/* INLINE STYLE HAS THE MOST PRIORITY, OTHERWISE RULE DEFINED LATER GETS THE PREFERENCE */
+/* CSS PREFERENCE ORDER IS:
+Browser default styles
+External or internal stylesheets (<link> or <style> in <head>)
+Inline styles (using the style attribute or <style> tag in the document)
+Important styles (rules using !important) */
