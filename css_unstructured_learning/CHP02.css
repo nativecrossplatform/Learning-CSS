@@ -26,6 +26,7 @@ body{
     background-repeat: no-repeat;
     /* x-repeat value will repeat background horizontally, similarly y-repeat works by repeating in y-direction only {USE MDN REFERENCE WEBSITE SECTION TO KNOW ALL}*/
     background-size:cover;
+    background-position: center;
     color: white;
 }
 /* 
