@@ -13,12 +13,17 @@ body{
 #one{
     color:red;
     background-color:green;
-    height: 50%;
+    height: 33.33%;
 }
 #two{
     color:green;
     background-color:red;
-    height: 50%;
+    height: 33.33%;
+}
+#third{
+    height: 33.34%;
+    background-image: url('assets/mmu.jpg');
+    color: white;
 }
 /* 
 .hex-color
