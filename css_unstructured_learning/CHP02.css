@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: black;
+}
 #one{
     color:red;
     background-color:green;
@@ -10,3 +13,29 @@
     color:green;
     background-color:red;
 }
+/* 
+.hex-color
+{
+    background-color: #3498db; 
+}
+.rgb-color 
+{
+    background-color: rgb(52, 152, 219); 
+}
+.rgba-color 
+{
+    background-color: rgba(52, 152, 219, 1); 
+}
+.hsl-color 
+{
+    background-color: hsl(204, 70%, 53%); 
+}
+.hsla-color 
+{
+    background-color: hsla(204, 70%, 53%, 1); 
+}
+.named-color 
+{
+    background-color: dodgerblue; 
+} 
+*/
