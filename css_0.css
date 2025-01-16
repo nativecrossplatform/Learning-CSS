@@ -28,3 +28,7 @@ div{
 .fourth{
     font-weight: bolder;
 }
+/*
+p.red{} selects element with class red within p tag
+p#red{} selects element with id red within p tag
+*/
