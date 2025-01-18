@@ -20,6 +20,7 @@ body{
     background-color: yellow;
     color:green;
     padding: 50px;
-    border: black 5px dotted;
+    border: black 5px solid;
+    border-radius: 150px; /*Circular Border*/
     margin: 50px;
 }
