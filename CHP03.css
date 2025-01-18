@@ -11,6 +11,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: red;
 }
 #specimen{
     text-wrap:wrap;
@@ -19,4 +20,6 @@ body{
     background-color: yellow;
     color:green;
     padding: 50px;
+    border: black 5px dotted;
+    margin: 50px;
 }
