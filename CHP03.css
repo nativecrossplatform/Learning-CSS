@@ -13,5 +13,10 @@ body{
     align-items: center;
 }
 #specimen{
-    
+    text-wrap:wrap;
+    height: 200px;
+    width:200px;
+    background-color: yellow;
+    color:green;
+    padding: 50px;
 }
