@@ -51,4 +51,7 @@ html,body{
     text-decoration: red wavy underline;
     text-transform: uppercase;
     font-weight: bolder;
+    line-height: 50px;
+    font-size: 25px;
+    font-family: cursive;
 }
