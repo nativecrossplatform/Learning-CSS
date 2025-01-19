@@ -9,14 +9,17 @@ html,body{
     height: 50px;
     width: 50px;
     background-color: red;
+    display: inline;
 }
 #box2{
     height: 50px;
     width: 50px;
     background-color: green;
+    display: inline;
 }
 #box3{
     height: 50px;
     width: 50px;
     background-color: blue;
+    display: inline;
 }
