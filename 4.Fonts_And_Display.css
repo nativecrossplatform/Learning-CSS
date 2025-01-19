@@ -27,16 +27,19 @@ html,body{
     height: 50px;
     background-color: red;
     display: block;
+    text-align: center;
 }
 #box5{
     height: 50px;
     background-color: green;
     display: block;
+    text-align: center;
 }
 #box6{
     height: 50px;
     background-color: blue;
     display: block;
+    text-align: center;
 }
 /*ALL MARGINS/PADDINGS WILL BE CONSIDERED IF WITH DISPLAY inline-block VALUE IS USED IN THE CSS RULE*/
 /* DISPLAY:NONE REMOVES ELEMENT FROM DOCUMENT FLOW, THE SPACE IS NOT BLOCKED */
