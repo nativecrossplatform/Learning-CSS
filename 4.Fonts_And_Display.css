@@ -7,9 +7,9 @@ html,body{
 }
 #box1{
     height: 50px;
-    width: 50px;
     background-color: red;
     display: inline;
+
 }
 #box2{
     height: 50px;
@@ -22,4 +22,19 @@ html,body{
     width: 50px;
     background-color: blue;
     display: inline;
+}
+#box4{
+    height: 50px;
+    background-color: red;
+    display: block;
+}
+#box5{
+    height: 50px;
+    background-color: green;
+    display: block;
+}
+#box6{
+    height: 50px;
+    background-color: blue;
+    display: block;
 }
