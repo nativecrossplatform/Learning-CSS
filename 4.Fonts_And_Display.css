@@ -45,5 +45,10 @@ html,body{
 /* DISPLAY:NONE REMOVES ELEMENT FROM DOCUMENT FLOW, THE SPACE IS NOT BLOCKED */
 /* WITH VISIBILITY:HIDDEN THE ELEMENT IS NOT VISIBLE BUT SPACE IS RESERVED */
 #textprops{
-    
+    background-color: yellow;
+    text-align: center;
+    padding:50px;
+    text-decoration: red wavy underline;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
