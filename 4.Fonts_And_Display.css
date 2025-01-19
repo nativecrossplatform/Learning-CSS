@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+#box1{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+#box2{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+#box3{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
