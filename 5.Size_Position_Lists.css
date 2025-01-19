@@ -7,6 +7,10 @@ html,body{
 }
 body{
     background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 div{
     height: auto;
